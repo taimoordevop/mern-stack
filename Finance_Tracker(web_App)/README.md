@@ -1,193 +1,290 @@
-# 🎨 ArtisanMart
-### A Multi-Vendor Marketplace for Artisans and Crafters
+# 💰 Finance Tracker - Personal Finance Management
+
+A stunning, modern personal finance management application built with the MERN stack. Track your income, expenses, budgets, and get detailed analytics with a beautiful, user-friendly interface.
+
+![Finance Tracker](https://img.shields.io/badge/Finance-Tracker-blue)
+![MERN Stack](https://img.shields.io/badge/MERN-Stack-green)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
+![React](https://img.shields.io/badge/React-18-blue)
+![Node.js](https://img.shields.io/badge/Node.js-Express-green)
+
+## 🎥 Live Demo
 
 <div align="center">
 
-[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](https://expressjs.com/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
+### 🚀 Watch the Full Application Walkthrough
 
-*A full-stack MERN marketplace connecting artisans with customers worldwide*
+[![Finance Tracker Demo Video](https://img.shields.io/badge/🎬_Watch_Full_Demo-Video_Guide-FF6B6B?style=for-the-badge&logo=video&logoColor=white)](https://drive.google.com/file/d/1mb-3b6BPChCCCUO-8STLn5WpzO1cBCKB/view?usp=sharing)
+
+*Click the button above to watch the complete demo video on Google Drive*
 
 </div>
 
-## 🎥 See ArtisanMart in Action
+## ✨ Features
 
-<div align="center">
+### 🎯 Core Functionality
+- **User Authentication** - Secure login/register with JWT
+- **Transaction Management** - Add, edit, delete income and expenses
+- **Budget Tracking** - Create and monitor spending limits
+- **Financial Analytics** - Beautiful charts and insights
+- **Real-time Dashboard** - Live financial overview
+- **Profile Management** - Customize preferences and settings
 
-### 🚀 Watch the Complete Marketplace Experience
+### 🎨 Beautiful UI/UX
+- **Modern Design** - Clean, gradient-based interface
+- **Responsive Layout** - Works perfectly on all devices
+- **Smooth Animations** - Framer Motion powered transitions
+- **Interactive Charts** - Chart.js for data visualization
+- **Dark/Light Theme** - User preference themes
+- **Glass Morphism** - Modern glass effects and shadows
 
-[![ArtisanMart Demo Video](https://img.shields.io/badge/🎬_Watch_Full_Demo-Video_Walkthrough-FF6B6B?style=for-the-badge&logo=video&logoColor=white)](https://drive.google.com/file/d/1sbSwi443xpEM58qW2sx_ycY5VVIfon08/view?usp=sharing)
-
-*Click above to watch the complete demo and see how ArtisanMart empowers artisans and shoppers*
-
-</div>
-
-## 🌟 Overview
-
-ArtisanMart is a comprehensive multi-vendor marketplace designed specifically for artisans and crafters to showcase and sell their unique handmade products. Our platform bridges the gap between talented creators and customers seeking authentic, handcrafted items.
+### 📊 Analytics & Insights
+- **Income vs Expense Trends** - Monthly/yearly comparisons
+- **Category Breakdown** - Spending analysis by category
+- **Budget Performance** - Track spending against limits
+- **Financial Health Score** - Overall financial status
+- **Export Reports** - Download financial data
 
 ## 📸 Visual Showcase
 
 <div align="center">
-  
-### 🏠 Landing Page
+
+### 🏠 Dashboard
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/0a4a1f3a-7b2b-45d3-bebd-2998c06989c5" width="400"></td>
-    <td><img src="https://github.com/user-attachments/assets/89c39c85-be9a-440f-b345-a90aaccee118" width="400"></td>
+    <td align="center"><b>Dashboard Overview</b></td>
+    <td align="center"><b>Recent Transactions</b></td>
+    <td align="center"><b>Quick Actions</b></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/ad5943c5-752e-40e8-b817-9b46d0fbd71b" width="400"></td>
-    <td><img src="https://github.com/user-attachments/assets/be1897eb-4409-4df6-aa01-dc2eec7d9d33" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/c3e7847d-1f75-406d-a05c-d5da0dfdd529" width="300"></td>
+    <td><img src="https://github.com/user-attachments/assets/6713a7a8-125f-4bfc-990a-afd7f82873f2" width="300"></td>
+    <td><img src="https://github.com/user-attachments/assets/9748a4f2-5242-40c2-b26c-0396d54844a2" width="300"></td>
   </tr>
 </table>
 
-### 👤 User Experience
+### 💳 Transactions
 <table>
   <tr>
-    <td><b>User Dashboard</b></td>
-    <td><b>Shopping Cart</b></td>
-    <td><b>Account Creation</b></td>
+    <td align="center"><b>Transaction Overview</b></td>
+    <td align="center"><b>Transaction History</b></td>
+    <td align="center"><b>Add Income</b></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/dd04ae37-fee7-43ce-8bd7-4e1ed140c61d" width="280"></td>
-    <td><img src="https://github.com/user-attachments/assets/0c5aef47-e4b1-4204-b3eb-ee46222fca2a" width="280"></td>
-    <td><img src="https://github.com/user-attachments/assets/a490776a-a278-4e21-94b9-22e494aa0622" width="280"></td>
+    <td><img src="https://github.com/user-attachments/assets/969256ac-3d53-472c-a5d8-b79f0fb552fc" width="300"></td>
+    <td><img src="https://github.com/user-attachments/assets/530585bd-43df-407f-b250-579d0177cfe4" width="300"></td>
+    <td><img src="https://github.com/user-attachments/assets/2a12d634-e8c7-4a35-b0ab-57605e340461" width="300"></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"><b>Add Expense</b></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"><img src="https://github.com/user-attachments/assets/1b861cb3-2b94-4561-bf56-757139b23a0c" width="600"></td>
   </tr>
 </table>
 
-### ⚙️ Admin Dashboard
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/214e9025-d8e6-4c03-b4f7-27df4b213805" width="600">
-</div>
+### 📊 Budgets & Analytics
+<table>
+  <tr>
+    <td align="center"><b>Budgets Overview</b></td>
+    <td align="center"><b>Analytics Overview</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/cdd5a989-1f2b-4f8a-b989-16323e6b5dea" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/12be1a35-2696-4531-8b29-c472486f9c2c" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Income vs Expense Charts</b></td>
+    <td align="center"><b>Spending Trends</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/6b315e19-4481-4ae3-aae2-cb23474a55d5" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/555beaaf-1e18-460b-b89c-ffd4979b2216" width="400"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b>Financial Insights</b></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="https://github.com/user-attachments/assets/020c8de7-2e9d-425a-ba63-d2b1a775fac3" width="600"></td>
+  </tr>
+</table>
+
+### 👤 Profile & Settings
+<table>
+  <tr>
+    <td align="center"><b>Profile View</b></td>
+    <td align="center"><b>Profile Settings</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/a8a0cd19-3d26-47b8-99ac-083902c47f7b" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/accaa9b4-6e8c-4760-a670-ba43418d2573" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Statistics</b></td>
+    <td align="center"><b>Currency Settings</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/4f5992d2-2dd4-4cff-80ef-65f7c42976cc" width="400"></td>
+    <td><img src="https://github.com/user-attachments/assets/a05ef432-2f44-4f72-8e4f-64f2e3e62b67" width="400"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><b>Security Settings</b></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="https://github.com/user-attachments/assets/563049c7-11d9-40b1-bd95-1c487ee4e153" width="600"></td>
+  </tr>
+</table>
 
 </div>
 
-## 🚀 Features
-
-### For Shoppers
-- 🛍️ Browse unique handmade products from multiple vendors
-- 🔍 Advanced search and filtering by category, price, and ratings
-- 🛒 Secure shopping cart with real-time updates
-- 💳 Secure checkout with Stripe payment processing
-- ⭐ Rate and review purchased items
-
-### For Artisans
-- 🏪 Create and manage your own storefront
-- 📊 Track sales and customer interactions
-- 💰 Get paid directly through Stripe Connect
-- 📱 Mobile-responsive vendor dashboard
-
-### For Administrators
-- 👥 Manage vendors and users
-- 📈 View platform analytics and sales reports
-- ⚙️ Configure platform settings
-- 🛡️ Moderate content and handle disputes
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **React** - Frontend library
-- **React Router** - Navigation
-- **Redux Toolkit** - State management
-- **Tailwind CSS** - Styling
-- **Axios** - HTTP client
-
-### Backend
-- **Node.js** - Runtime environment
-- **Express** - Web framework
-- **MongoDB** - Database
-- **Mongoose** - ODM for MongoDB
-- **JWT** - Authentication
-- **Stripe** - Payment processing
-
-## 🚀 Getting Started
+## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js (v14 or later)
-- MongoDB Atlas account or local MongoDB
-- Stripe account for payment processing
+- Node.js (v16 or higher)
+- MongoDB Atlas account
+- Git
 
-### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/artisan-mart.git
-   cd artisan-mart
-   ```
 
-2. **Install dependencies**
-   ```bash
-   # Install server dependencies
-   cd backend
-   npm install
-   
-   # Install client dependencies
-   cd ../frontend
-   npm install
-   ```
+## 🛠️ Technology Stack
 
-3. **Set up environment variables**
-   Create a `.env` file in the backend directory with:
-   ```
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
-   STRIPE_SECRET_KEY=your_stripe_secret_key
-   CLIENT_URL=http://localhost:3000
-   ```
+### Frontend
+- **React 18** - Modern React with hooks
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Smooth animations
+- **Chart.js** - Beautiful charts and graphs
+- **React Query** - Data fetching and caching
+- **React Router** - Client-side routing
+- **Lucide React** - Beautiful icons
 
-4. **Run the application**
-   ```bash
-   # Start backend server
-   cd backend
-   npm run dev
-   
-   # In a new terminal, start frontend
-   cd frontend
-   npm start
-   ```
+### Backend
+- **Node.js** - JavaScript runtime
+- **Express.js** - Web framework
+- **MongoDB** - NoSQL database
+- **Mongoose** - MongoDB object modeling
+- **JWT** - JSON Web Tokens for authentication
+- **bcryptjs** - Password hashing
+- **Joi** - Data validation
+- **Helmet** - Security middleware
 
-   The application will be available at `http://localhost:3000`
+### Database
+- **MongoDB Atlas** - Cloud database service
+- **Collections**: Users, Transactions, Budget
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🎨 Design System
+
+### Color Palette
+- **Primary**: Gradient from #667eea to #764ba2
+- **Success**: Gradient from #4facfe to #00f2fe
+- **Warning**: Gradient from #43e97b to #38f9d7
+- **Danger**: Gradient from #fa709a to #fee140
+
+### Typography
+- **Font**: Inter (Google Fonts)
+- **Weights**: 300, 400, 500, 600, 700, 800
+
+### Components
+- **Cards**: Rounded corners, subtle shadows, gradient borders
+- **Buttons**: Gradient backgrounds with hover effects
+- **Forms**: Clean inputs with focus states
+- **Charts**: Modern styling with gradient fills
+
+## 🔒 Security Features
+
+- **JWT Authentication** - Secure token-based auth
+- **Password Hashing** - bcrypt with salt rounds
+- **Input Validation** - Joi schema validation
+- **Rate Limiting** - Prevent API abuse
+- **CORS Protection** - Cross-origin security
+- **Helmet Security** - HTTP security headers
+
+## 📊 Database Schema
+
+### User Model
+```javascript
+{
+  name: String,
+  email: String (unique),
+  password: String (hashed),
+  preferences: {
+    currency: String,
+    theme: String,
+    language: String
+  },
+  createdAt: Date
+}
+```
+
+### Transaction Model
+```javascript
+{
+  userId: ObjectId,
+  type: 'income' | 'expense',
+  amount: Number,
+  category: String,
+  description: String,
+  date: Date,
+  paymentMethod: String,
+  tags: [String]
+}
+```
+
+### Budget Model
+```javascript
+{
+  userId: ObjectId,
+  name: String,
+  category: String,
+  amount: Number,
+  spent: Number,
+  period: 'weekly' | 'monthly' | 'yearly',
+  startDate: Date,
+  endDate: Date,
+  isActive: Boolean
+}
+```
+
+## 🚀 Deployment
+
+### Frontend (Vercel/Netlify)
+1. Build the project: `npm run build`
+2. Deploy the `client/dist` folder
+3. Set environment variables
+
+### Backend (Railway/Heroku)
+1. Set environment variables
+2. Deploy the `server` folder
+3. Configure MongoDB Atlas connection
+
+### Database
+- MongoDB Atlas is already configured
+- Connection string is provided in the project
 
 ## 🤝 Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
-## 🙏 Acknowledgments
-
-- [Font Awesome](https://fontawesome.com/)
-- [React Icons](https://react-icons.github.io/react-icons/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Stripe](https://stripe.com/)
-
----
-
-<div align="center">
-
-### 📺 Experience the Complete Marketplace
-
-[![Watch ArtisanMart Demo](https://img.shields.io/badge/🛍️_Watch_Full_Marketplace_Demo-Click_Here-FF6B6B?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1sbSwi443xpEM58qW2sx_ycY5VVIfon08/view?usp=sharing)
-
-*See how ArtisanMart creates opportunities for artisans and shoppers alike*
-
-</div>
 
 ---
 
 
-<div align="center">
-  **Built with ❤️ for artisans and crafters worldwide**
-</div>
+## ✨ Finance Tracker Key Highlights
+
+- **Personal Finance Management Dashboard** — Complete web application for tracking income, expenses, and savings
+- **Interactive Data Visualization** — Beautiful charts and graphs (Recharts) for monthly/weekly spending insights
+- **Budget Planning & Alerts** — Smart budget categories with real-time overspending notifications
+- **Transaction Management** — Add, edit, categorize, and search financial transactions with full CRUD operations
+- **Modern MERN Stack Architecture** — Built with TypeScript, Tailwind CSS, and clean, scalable code
+- **Secure User Data** — JWT authentication and protected routes for personal financial information
+- **Responsive Design** — Excellent user experience on both desktop and mobile devices
+- **Production-Ready Patterns** — Proper state management, error handling, and performance optimization
+
+A practical and visually rich full-stack finance application that demonstrates real-world MERN Stack skills with focus on usability and data insights.
+---
